@@ -19,6 +19,18 @@
 		3791FBA219A5944E009DBF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791FB8A19A5944E009DBF47 /* UIKit.framework */; };
 		3791FBAA19A5944E009DBF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3791FBA819A5944E009DBF47 /* InfoPlist.strings */; };
 		3791FBAC19A5944E009DBF47 /* QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBAB19A5944E009DBF47 /* QQ____Tests.m */; };
+		3791FBB719A59487009DBF47 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBB619A59487009DBF47 /* ListViewController.m */; };
+		3791FBB919A594C5009DBF47 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3791FBB819A594C5009DBF47 /* friends.plist */; };
+		3791FBBC19A595A3009DBF47 /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBBB19A595A3009DBF47 /* FriendGroup.m */; };
+		3791FBC319A59762009DBF47 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBC219A59762009DBF47 /* Friend.m */; };
+		3791FBC619A59C18009DBF47 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBC519A59C18009DBF47 /* HeadView.m */; };
+		3791FBCF19A5C434009DBF47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBCE19A5C434009DBF47 /* ViewController.m */; };
+		3791FBD419A5C441009DBF47 /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBD119A5C441009DBF47 /* UIImage+ResizeImage.m */; };
+		3791FBD519A5C441009DBF47 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBD319A5C441009DBF47 /* NSString+Extension.m */; };
+		3791FBD819A5C44B009DBF47 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBD719A5C44B009DBF47 /* MessageCell.m */; };
+		3791FBDD19A5C457009DBF47 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBDA19A5C457009DBF47 /* MessageModel.m */; };
+		3791FBDE19A5C457009DBF47 /* CellFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3791FBDC19A5C457009DBF47 /* CellFrameModel.m */; };
+		3791FBE019A5C558009DBF47 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3791FBDF19A5C558009DBF47 /* messages.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,28 @@
 		3791FBA719A5944E009DBF47 /* QQ好友列表Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQ好友列表Tests-Info.plist"; sourceTree = "<group>"; };
 		3791FBA919A5944E009DBF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3791FBAB19A5944E009DBF47 /* QQ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____Tests.m"; sourceTree = "<group>"; };
+		3791FBB519A59487009DBF47 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3791FBB619A59487009DBF47 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3791FBB819A594C5009DBF47 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		3791FBBA19A595A3009DBF47 /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
+		3791FBBB19A595A3009DBF47 /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+		3791FBC119A59762009DBF47 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		3791FBC219A59762009DBF47 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		3791FBC419A59C18009DBF47 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		3791FBC519A59C18009DBF47 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		3791FBCD19A5C434009DBF47 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3791FBCE19A5C434009DBF47 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3791FBD019A5C441009DBF47 /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
+		3791FBD119A5C441009DBF47 /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
+		3791FBD219A5C441009DBF47 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		3791FBD319A5C441009DBF47 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3791FBD619A5C44B009DBF47 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		3791FBD719A5C44B009DBF47 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		3791FBD919A5C457009DBF47 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		3791FBDA19A5C457009DBF47 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		3791FBDB19A5C457009DBF47 /* CellFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellFrameModel.h; sourceTree = "<group>"; };
+		3791FBDC19A5C457009DBF47 /* CellFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellFrameModel.m; sourceTree = "<group>"; };
+		3791FBDF19A5C558009DBF47 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +141,10 @@
 		3791FB8C19A5944E009DBF47 /* QQ好友列表 */ = {
 			isa = PBXGroup;
 			children = (
-				3791FB9519A5944E009DBF47 /* AppDelegate.h */,
-				3791FB9619A5944E009DBF47 /* AppDelegate.m */,
-				3791FB9819A5944E009DBF47 /* Images.xcassets */,
+				3791FBC019A595C6009DBF47 /* Other */,
+				3791FBBF19A595BB009DBF47 /* Controller */,
+				3791FBBE19A595B5009DBF47 /* View */,
+				3791FBBD19A595AA009DBF47 /* Model */,
 				3791FB8D19A5944E009DBF47 /* Supporting Files */,
 			);
 			path = "QQ好友列表";
@@ -118,6 +153,9 @@
 		3791FB8D19A5944E009DBF47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3791FB9819A5944E009DBF47 /* Images.xcassets */,
+				3791FBDF19A5C558009DBF47 /* messages.plist */,
+				3791FBB819A594C5009DBF47 /* friends.plist */,
 				3791FB8E19A5944E009DBF47 /* QQ好友列表-Info.plist */,
 				3791FB8F19A5944E009DBF47 /* InfoPlist.strings */,
 				3791FB9219A5944E009DBF47 /* main.m */,
@@ -142,6 +180,56 @@
 				3791FBA819A5944E009DBF47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3791FBBD19A595AA009DBF47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3791FBBA19A595A3009DBF47 /* FriendGroup.h */,
+				3791FBBB19A595A3009DBF47 /* FriendGroup.m */,
+				3791FBC119A59762009DBF47 /* Friend.h */,
+				3791FBC219A59762009DBF47 /* Friend.m */,
+				3791FBD919A5C457009DBF47 /* MessageModel.h */,
+				3791FBDA19A5C457009DBF47 /* MessageModel.m */,
+				3791FBDB19A5C457009DBF47 /* CellFrameModel.h */,
+				3791FBDC19A5C457009DBF47 /* CellFrameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3791FBBE19A595B5009DBF47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3791FBC419A59C18009DBF47 /* HeadView.h */,
+				3791FBC519A59C18009DBF47 /* HeadView.m */,
+				3791FBD619A5C44B009DBF47 /* MessageCell.h */,
+				3791FBD719A5C44B009DBF47 /* MessageCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3791FBBF19A595BB009DBF47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3791FBB519A59487009DBF47 /* ListViewController.h */,
+				3791FBB619A59487009DBF47 /* ListViewController.m */,
+				3791FBCD19A5C434009DBF47 /* ViewController.h */,
+				3791FBCE19A5C434009DBF47 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3791FBC019A595C6009DBF47 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3791FB9519A5944E009DBF47 /* AppDelegate.h */,
+				3791FB9619A5944E009DBF47 /* AppDelegate.m */,
+				3791FBD019A5C441009DBF47 /* UIImage+ResizeImage.h */,
+				3791FBD119A5C441009DBF47 /* UIImage+ResizeImage.m */,
+				3791FBD219A5C441009DBF47 /* NSString+Extension.h */,
+				3791FBD319A5C441009DBF47 /* NSString+Extension.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3791FBE019A5C558009DBF47 /* messages.plist in Resources */,
 				3791FB9119A5944E009DBF47 /* InfoPlist.strings in Resources */,
 				3791FB9919A5944E009DBF47 /* Images.xcassets in Resources */,
+				3791FBB919A594C5009DBF47 /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3791FBCF19A5C434009DBF47 /* ViewController.m in Sources */,
+				3791FBD419A5C441009DBF47 /* UIImage+ResizeImage.m in Sources */,
 				3791FB9719A5944E009DBF47 /* AppDelegate.m in Sources */,
+				3791FBC319A59762009DBF47 /* Friend.m in Sources */,
+				3791FBC619A59C18009DBF47 /* HeadView.m in Sources */,
+				3791FBD819A5C44B009DBF47 /* MessageCell.m in Sources */,
+				3791FBBC19A595A3009DBF47 /* FriendGroup.m in Sources */,
+				3791FBDE19A5C457009DBF47 /* CellFrameModel.m in Sources */,
 				3791FB9319A5944E009DBF47 /* main.m in Sources */,
+				3791FBD519A5C441009DBF47 /* NSString+Extension.m in Sources */,
+				3791FBB719A59487009DBF47 /* ListViewController.m in Sources */,
+				3791FBDD19A5C457009DBF47 /* MessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
